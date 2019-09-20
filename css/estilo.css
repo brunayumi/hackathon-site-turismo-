@@ -1,0 +1,304 @@
+			body {
+				background-color: rgb(185, 220, 250);
+			}
+
+
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: 300;
+				line-height: 1.5;
+				margin: 0 0 0.7em 0;
+				letter-spacing: -0.025em;
+			}
+
+				h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+					color: inherit;
+					text-decoration: none;
+				}
+
+				#nav {
+					-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+					-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+					-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+					transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+					background-color: #ffffff;
+					color: #636363;
+					width: 64em;
+					max-width: calc(100% - 4em);
+					padding: 1em;
+					background-color: #f7f7f7;
+					border-radius: 50px;
+					cursor: default;
+					width:999px;
+					position: absolute;
+					margin-left: 6%;
+					margin-top: 1%;
+				}
+
+
+					#nav input, #nav select, #nav textarea {
+						color: #636363;
+					}
+
+					#nav a:hover {
+						color: #636363;
+					}
+
+					#nav strong, #nav b {
+						color: #636363;
+					}
+
+					#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
+						color: #636363;
+					}
+
+					#nav blockquote {
+						border-left-color: #dddddd;
+					}
+
+					#nav code {
+						background: rgba(222, 222, 222, 0.25);
+						border-color: #dddddd;
+					}
+
+					#nav hr {
+						border-bottom-color: #dddddd;
+					}
+
+					#nav + #main {
+						padding-top: 4.25em;
+					}
+
+					#nav ul {
+						margin: 0;
+						padding: 0;
+						list-style: none;
+					}
+
+					#nav ul li {
+						-moz-transition: margin 0.2s ease;
+						-webkit-transition: margin 0.2s ease;
+						-ms-transition: margin 0.2s ease;
+						transition: margin 0.2s ease;
+						display: inline-block;
+						margin: 0 0.35em;
+						padding: 0;
+						vertical-align: middle;
+					}
+
+				#nav ul li a {
+					font-family: Impact, Charcoal, sans-serif;
+					font-size: 25px;
+					letter-spacing: 2px;
+					word-spacing: 2px;
+					color: #000000;
+					font-weight: 400;
+					text-decoration: none solid rgb(68, 68, 68);
+					font-style: normal;
+					font-variant: small-caps;
+					text-transform: uppercase;
+					-moz-transition: font-size 0.2s ease;
+					-webkit-transition: font-size 0.2s ease;
+					-ms-transition: font-size 0.2s ease;
+					transition: font-size 0.2s ease;
+					display: inline-block;
+					height: 2.25em;
+					line-height: 2.25em;
+					padding: 0 1.25em;
+					border: 0;
+					border-radius: 8px;
+					box-shadow: inset 0 0 0 1px transparent;
+				}
+
+					#nav ul li a:hover {
+						background-color: rgb(185, 220, 250);
+					}
+
+					#nav ul li a.active {
+						background-color: #ffffff;
+						box-shadow: none;
+					}
+
+				#nav.alt {
+					position: fixed;
+					top: 0;
+					padding: 0.5em 1em;
+					background-color: rgba(247, 247, 247, 0.95);
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+					z-index: 10000;
+				}
+
+					#nav.alt ul li {
+						margin: 0 0.175em;
+					}
+
+						#nav.alt ul li a {
+							font-size: 0.9em;
+						}
+
+				
+					#menu{
+						margin-left: 20px;
+					}
+
+					#city {
+						width: 80px;
+						height: 90px;
+						margin-top: -5px;
+					}
+
+					#tourism {
+						width: 62px;
+						height: 40px;
+						margin-top: -10px;
+					}
+
+					#map {
+						width: 44px;
+						height: 48px;
+						margin-top: -10px;
+					}
+
+					#mongagua {
+						border: 1px solid black;
+						border-radius: 50px; 
+						margin: 24px 2px 2px 2px;
+						margin-left: 5px;
+					}	
+					
+					#bandeira{
+						float: right;    
+						margin: 0px 10px 2px 2px;
+						border: 1px solid black;
+						margin-top: 20px;
+						border-radius: 50px;
+						width: 75%;
+						height: 4%;
+
+					}
+
+					#imgponto{
+						float: right;    
+						margin: 24px 2px 2px 2px;
+						border: 1px solid black;
+						margin-top: 20px;
+						width: 75%;
+						height: 4%;
+						border-radius: 50px;
+					}
+					p {
+						margin-top: 40px;
+						margin-right: 100px;
+						text-align: justify;
+						font-family: Arial, Helvetica, sans-serif;
+						font-weight: bold;
+					}
+
+					.texto {
+						font-family: Impact, Charcoal, sans-serif;
+						font-size: 25px;
+						letter-spacing: 2px;
+						word-spacing: 2px;
+						color: #000000;
+						font-weight: 400;
+						text-decoration: none solid rgb(68, 68, 68);
+						font-style: normal;
+						font-variant: small-caps;
+						text-transform: uppercase;
+						margin-top: 20px;
+					}
+
+					.texto {
+						margin-top: 7%;
+						-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+								animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+					}
+					
+					@-webkit-keyframes slide-in-left {
+						0% {
+						-webkit-transform: translateX(-1000px);
+								transform: translateX(-1000px);
+						opacity: 0;
+						}
+						100% {
+						-webkit-transform: translateX(0);
+								transform: translateX(0);
+						opacity: 1;
+						}
+					}
+					@keyframes slide-in-left {
+						0% {
+						-webkit-transform: translateX(-1000px);
+								transform: translateX(-1000px);
+						opacity: 0;
+						}
+						100% {
+						-webkit-transform: translateX(0);
+								transform: translateX(0);
+						opacity: 1;
+						}
+					}
+					
+					h1
+{ 
+  position: absolute; 
+  top: 40px; 
+  left: 0; 
+  width: 100%; 
+}
+
+h1 span 
+{ 
+    font-family: Impact, Charcoal, sans-serif;
+	font-size: 35px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+h1 span.spacer { padding:0 5px; } 
+
+h1 span{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: black; }
+    50% { color: rgb(185, 220, 250);}
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: black; }
+    50% { color:  rgb(185, 220, 250);}
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: black; }
+    50% { color:  rgb(185, 220, 250);}
+    100% { color: black; }
+}
+@-o-keyframes color-change {
+    0% { color: black; }
+    50% { color: rgb(185, 220, 250);}
+    100% { color: black; }
+}
+@keyframes color-change {
+    0% { color: black; }
+    50% { color: rgb(185, 220, 250);}
+    100% { color: black; }
+}
+ #mapa {
+	border: 1px solid black;
+    border-radius: 50px; 
+ }
+
+
+			
